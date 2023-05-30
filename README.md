@@ -7,7 +7,10 @@ async function startProgram() {
 	setMainLed({ r: 0, g: 0, b: 90 });
 	await roll(90, 80, 1.5);
     await Sound.Animal.play(true);
-	await roll(180, 0, 0);
+	await roll(180, 39, 2.65);
+	await roll(220, 50, 1.79);
+	setMainLed({ r: 255, g: 0, b: 0 });
+
 }
 
 	
